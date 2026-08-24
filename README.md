@@ -33,8 +33,8 @@ Whale Alert standardizes transaction data across all supported networks into a s
 | Plan | WebSocket | Historical Lookback | Rate Limit | Primary Use Case |
 | :--- | :--- | :--- | :--- | :--- |
 | **WebSocket API** | Live alerts | Real-time only | Alerts: 100/hour  | Real-time bots, webhook dispatchers, live alert feeds. |
-| **Enterprise API** | Live alerts | 90 days rolling | Alerts: 2,000/h <br />API Calls: 10,000/hour | Quantitative trading, data pipelines, short-term backfills. |
-| **Enterprise Plus API** | Live alerts | Full history (Genesis to present*) | Alerts: 2,000/h <br />API Calls: 20,000/h  | Macro research, long-term backtesting, institutional compliance. |
+| **Enterprise API** | Live alerts | 90 days rolling | Alerts: 2,000/h <br />API Calls: 1,000 CPM | Quantitative trading, data pipelines, short-term backfills. |
+| **Enterprise Plus API** | Live alerts | Full history (Genesis to present*) | Alerts: 2,000/h <br />API Calls: 2,000 CPM  | Macro research, long-term backtesting, institutional compliance. |
 
 \* *Partial histories are available for Ripple and Solana.*
 
